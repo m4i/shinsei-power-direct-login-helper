@@ -1,0 +1,51 @@
+#account_list {
+  list-style: none;
+}
+#account_list li {
+  padding-top: 10px;
+  /*border: 1px solid #ccc;*/
+  float: left;
+  width: 320px;
+  height: 260px;
+  text-align: center;
+}
+#account_list #add_account_container {
+}
+#account_list #add_account_container button {
+  margin-top: 100px;
+}
+
+.edit-account input {
+  color: #0b8;
+  text-align: center;
+}
+.edit-account input.error {
+  background-color: #fcc;
+}
+.edit-account .security-card {
+  margin: 0 auto;
+}
+  .edit-account .security-card th,
+  .edit-account .security-card td {
+    border: 1px solid #ccc;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+  }
+  .edit-account .security-card th {
+    background-color: #f4f4f4;
+  }
+  .edit-account .security-card td.error {
+    background-color: #fcc;
+  }
+    .edit-account .security-card input {
+      border-style: none;
+      width: 20px;
+    }
+.edit-account button {
+  margin-top: 10px;
+}
+
+#templates {
+  display: none;
+}
